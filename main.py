@@ -1,28 +1,46 @@
 import json
 
-with open("snippets/html.json", "r") as read_file:
-    jsonHtml = json.load(read_file)
-
-
-def SplitKeys(inputDisc):
-    retDisc = dict()
-    for key in  inputDisc:
-        newKeys = key.split('|')
-        for newKey in newKeys:
-            retDisc[newKey] = inputDisc[key]
-    return retDisc
-inputString = input()
-parsedString = inputString.split('+')#заменить на нормальный парсер операций
-html = SplitKeys(jsonHtml)
-
 
 def WrapInTag(text):
     return "<" + text + ">" + "<\\" + text + ">"
 
-#если нет строк в словаер, просто оборачивать в теги
+
+def Plus(text):
+    resultString = ""
+    plusMass = text.split("+")
+    for word in plusMass:
+        resultString = resultString + " " + WrapInTag(word)
+    return resultString
+
+
+
+def SquareBrackets(text):
+    if [s for s in text if s in '[]']:
+        results = text.split("[")
+        return results[0] + " " + results[1][0:-1]
+    else:
+        return text
+
+
+# Переписать полностью, тут сложнее
 def OpenString():
     for word in parsedString:
-        print(WrapInTag(html[word]))
+        print(WrapInTag(SquareBrackets(html[word])))
 
 
+def SplitKeys(inputDisc):
+    retDisc = dict()
+    for key in inputDisc:
+        newKeys = key.split('|')
+        for newKey in newKeys:
+            retDisc[newKey] = inputDisc[key]
+    return retDisc
+
+
+with open("snippets/html.json", "r") as read_file:
+    jsonHtml = json.load(read_file)
+html = SplitKeys(jsonHtml)
+inputString = input()
+# заменить на нормальный парсер операций
+parsedString = inputString.split('+')
 OpenString()
