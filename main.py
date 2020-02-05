@@ -1,14 +1,19 @@
 import json
 
 with open("snippets/html.json", "r") as read_file:
-    html = json.load(read_file)
+    jsonHtml = json.load(read_file)
 
 
-print(html)#разбить ключи в словаре
-
+def SplitKeys(inputDisc):
+    retDisc = dict()
+    for key in  inputDisc:
+        newKeys = key.split('|')
+        for newKey in newKeys:
+            retDisc[newKey] = inputDisc[key]
+    return retDisc
 inputString = input()
-
 parsedString = inputString.split('+')#заменить на нормальный парсер операций
+html = SplitKeys(jsonHtml)
 
 
 def WrapInTag(text):
