@@ -1,3 +1,10 @@
+import json
+
+with open("snippets/html.json", "r") as read_file:
+    html = json.load(read_file)
+
+
+print(type(html))
 inputString = input()
 
 parsedString = inputString.split('+')
@@ -8,9 +15,6 @@ def WrapInTag(text):
 
 
 def OpenString():
-    for i in parsedString:
-        print(WrapInTag(i))
-    return 0
-
-
+    for word in parsedString:
+        print(WrapInTag(html[word]))
 OpenString()
