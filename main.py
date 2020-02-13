@@ -1,8 +1,16 @@
 import json
 
 
-def WrapInTag(text):
-    return "<" + text + ">" + "<\\" + text + ">"
+class Tags:
+    def __init__(self, tagName, attributes):
+        self.tagName = tagName
+        self.attributes = dict
+
+    def WrapInTag(self):
+        returnedString = "<" + self.tagName
+        for attribute in self.attributes:
+            returnedString += " " + attribute + "=\"" + self.attributes[attribute] + "\""
+        return returnedString
 
 
 def Plus(text):
@@ -11,7 +19,6 @@ def Plus(text):
     for word in plusMass:
         resultString = resultString + " " + WrapInTag(word)
     return resultString
-
 
 
 def SquareBrackets(text):
@@ -40,7 +47,7 @@ def SplitKeys(inputDisc):
 with open("snippets/html.json", "r") as read_file:
     jsonHtml = json.load(read_file)
 html = SplitKeys(jsonHtml)
-inputString = input()
+inputString = input(hyi)
 # заменить на нормальный парсер операций
 parsedString = inputString.split('+')
 OpenString()
