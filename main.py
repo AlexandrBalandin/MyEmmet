@@ -47,7 +47,7 @@ def SplitKeys(inputDisc):
 with open("snippets/html.json", "r") as read_file:
     jsonHtml = json.load(read_file)
 html = SplitKeys(jsonHtml)
-inputString = input(hyi)
+inputString = input()
 # заменить на нормальный парсер операций
 parsedString = inputString.split('+')
 OpenString()
