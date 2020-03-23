@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2ed755f4-2702-402b-a0b2-3711c12a7f22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,45 +160,45 @@
     <state x="488" y="166" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1580921305277" />
     <state x="787" y="326" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1584698533305" />
     <state x="787" y="358" width="424" height="484" key="FileChooserDialogImpl/0.27.1440.873@0.27.1440.873" timestamp="1582706924460" />
-    <state width="1419" height="222" key="GridCell.Tab.0.bottom" timestamp="1584902370646">
+    <state width="1419" height="296" key="GridCell.Tab.0.bottom" timestamp="1585003205880">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="296" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585003205880" />
     <state width="1417" height="219" key="GridCell.Tab.0.bottom/0.27.1440.873@0.27.1440.873" timestamp="1582803874358" />
-    <state width="1419" height="222" key="GridCell.Tab.0.center" timestamp="1584902370646">
+    <state width="1419" height="296" key="GridCell.Tab.0.center" timestamp="1585003205880">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="296" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1585003205880" />
     <state width="1417" height="219" key="GridCell.Tab.0.center/0.27.1440.873@0.27.1440.873" timestamp="1582803874358" />
-    <state width="1419" height="222" key="GridCell.Tab.0.left" timestamp="1584902370646">
+    <state width="1419" height="296" key="GridCell.Tab.0.left" timestamp="1585003205880">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="296" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1585003205880" />
     <state width="1417" height="219" key="GridCell.Tab.0.left/0.27.1440.873@0.27.1440.873" timestamp="1582803874357" />
-    <state width="1419" height="222" key="GridCell.Tab.0.right" timestamp="1584902370646">
+    <state width="1419" height="296" key="GridCell.Tab.0.right" timestamp="1585003205880">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="296" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1585003205880" />
     <state width="1417" height="219" key="GridCell.Tab.0.right/0.27.1440.873@0.27.1440.873" timestamp="1582803874358" />
-    <state width="1419" height="222" key="GridCell.Tab.1.bottom" timestamp="1584902370646">
+    <state width="1419" height="222" key="GridCell.Tab.1.bottom" timestamp="1585003146339">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="222" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585003146339" />
     <state width="1417" height="272" key="GridCell.Tab.1.bottom/0.27.1440.873@0.27.1440.873" timestamp="1582796080005" />
-    <state width="1419" height="222" key="GridCell.Tab.1.center" timestamp="1584902370646">
+    <state width="1419" height="222" key="GridCell.Tab.1.center" timestamp="1585003146339">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="222" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1585003146339" />
     <state width="1417" height="272" key="GridCell.Tab.1.center/0.27.1440.873@0.27.1440.873" timestamp="1582796080004" />
-    <state width="1419" height="222" key="GridCell.Tab.1.left" timestamp="1584902370646">
+    <state width="1419" height="222" key="GridCell.Tab.1.left" timestamp="1585003146339">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="222" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1585003146339" />
     <state width="1417" height="272" key="GridCell.Tab.1.left/0.27.1440.873@0.27.1440.873" timestamp="1582796080004" />
-    <state width="1419" height="222" key="GridCell.Tab.1.right" timestamp="1584902370646">
+    <state width="1419" height="222" key="GridCell.Tab.1.right" timestamp="1585003146339">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="222" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1584902370646" />
+    <state width="1419" height="222" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1585003146339" />
     <state width="1417" height="272" key="GridCell.Tab.1.right/0.27.1440.873@0.27.1440.873" timestamp="1582796080005" />
     <state x="510" y="160" key="RollbackChangesDialog" timestamp="1577375661465">
       <screen x="0" y="0" width="1440" height="900" />
@@ -210,11 +211,11 @@
     <state x="221" y="60" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1584698556790" />
     <state x="221" y="92" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576550455801" />
     <state x="221" y="88" key="SettingsEditor/0.27.1440.873@0.27.1440.873" timestamp="1582707901765" />
-    <state x="421" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1584874968103">
+    <state x="421" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1584998969269">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="399" y="233" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580921834623" />
-    <state x="421" y="261" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584874968103" />
+    <state x="421" y="261" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584998969269" />
     <state x="421" y="273" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1580288876598" />
     <state x="421" y="292" key="com.intellij.ide.util.TipDialog/0.27.1440.873@0.27.1440.873" timestamp="1582803696042" />
     <state x="502" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580922106041">
@@ -236,8 +237,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="7" />
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

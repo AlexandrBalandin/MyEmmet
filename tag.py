@@ -9,12 +9,20 @@ class Tag(Leaf):
         self.tagName = tagName
         self.attributes = attributes
         self.textInTag = textInTag
+        self.used = 0
 
     def WrapInTag(self):
         returnedString = "<" + self.tagName
         for attribute in self.attributes:
             returnedString += " " + attribute + "=\"" + self.attributes[attribute] + "\""
-        returnedString += ">" + self.textInTag + "<\\" + self.tagName + ">"
+        returnedString += ">\n" + self.textInTag + "\n<\\" + self.tagName + ">\n"
         return returnedString
+
+    def deleteChildById(self, childId):
+        self.childrenId.remove(childId)
+
+
+
+
 
 

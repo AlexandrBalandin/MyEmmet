@@ -4,14 +4,11 @@ import re
 
 
 def main():
-    inputString = "div1>div2>div3^div4+div5{text}[title=\"hop\"]"
+    inputString = "div[class=main]>h1{hello}+p{it's work!}^div[class=content]{gagaga}"
     operationPattern = "[+*>^{}\[\]]"
     tags = re.split(operationPattern, inputString)
     tags = list(filter(None, tags))
     operations = re.findall(operationPattern, inputString)
-
-    print(tags)
-    print(operations)
 
     tagId = 0
     parentID = -1
@@ -67,16 +64,10 @@ def main():
                 key, value = attribute.split("=")
                 value = value.replace("\"", '')
                 lastAddedTag.attributes[key] = value
-    tree.printTree()
+            operations.pop(0)
+    tree.DFS(0)
+    print(startTag.WrapInTag())
+
+
 if __name__ == "__main__":
     main()
-
-
-def RNP():
-    operation_pattern = "[+*>^]"
-    input_string = "div+div>p>span^span+em"
-    tags = re.split(operation_pattern, input_string)
-    tags = list(filter(None, tags))
-    operations = re.findall(operation_pattern, input_string)
-    print(tags)
-    print(operations)
